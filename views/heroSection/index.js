@@ -7,13 +7,10 @@ function HeroSection() {
   const words = ["HEART", "AND", "SQUARE"];
 
   return (
-    <div className="w-full relative bg-[--main-color] h-[calc(100vh-180px)] max-h-[100vh] overflow-hidden">
+    <div className="w-full relative bg-[--main-color] h-[calc(100vh)] max-h-[1000px] overflow-hidden">
       <div className="invisible  xl:visible absolute  xl:top-1/2 left-5 transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
         {words.map((word, index) => (
-          <div
-            key={index}
-            className="text-4xl sm:text-6xl leading-[0.8] md:text-5xl lg:text-6xl xl:text-[8rem] tracking-tight"
-          >
+          <div key={index} className="text-4xl  tracking-tight">
             {word}
           </div>
         ))}
@@ -27,7 +24,7 @@ function HeroSection() {
             className="object-contain w-full h-full"
           />
         </div>
-        <div className="mb-12 text-center px-4">
+        <div className="mb-12 text-center px-4 mt-28">
           <p className="text-[var(--heading-color)] font-semibold uppercase tracking-widest mb-3">
             EXPLORE
           </p>
@@ -48,7 +45,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className=" absolute transform  bottom-[0px]   w-[350px] h-[350px]  md:right-10  md:absolute  md:w-[400px] md:h-[400px] lg:right-10 lg:absolute   lg:h-[500px] lg:w-[500px] xl:h-[600px] xl:w-[600px]  flex justify-end">
+      <div className=" absolute transform  bottom-[0px]   w-[350px] h-[350px]  md:right-10  md:absolute  md:w-[300px] md:h-[300px] lg:right-10 lg:absolute   lg:h-[300px] lg:w-[300px] xl:h-[500px] xl:w-[500px]  flex justify-end">
         <Image
           src={"/images/hero.png"}
           fill

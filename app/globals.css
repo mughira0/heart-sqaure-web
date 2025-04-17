@@ -89,8 +89,8 @@ body {
 }
 .mainDiv::before {
   content: "";
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
   position: fixed;
   background-image: radial-gradient(#2f7b6e, transparent);
   filter: blur(20px);
@@ -119,8 +119,8 @@ body {
 }
 .mainDiv::after {
   content: "";
-  height: 600px;
-  width: 600px;
+  height: 500px;
+  width: 500px;
   position: fixed;
   background-image: radial-gradient(#2f7b6e, transparent);
   filter: blur(10px);
@@ -149,7 +149,7 @@ body {
 @media screen and (max-width: 1600px) {
   .mainDiv::before {
     width: 450px;
-    height: 4500px;
+    height: 450px;
   }
   .mainDiv::after {
     width: 450px;
@@ -159,11 +159,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .mainDiv::before {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
   }
   .mainDiv::after {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
   }
 }
