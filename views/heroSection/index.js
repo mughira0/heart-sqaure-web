@@ -7,7 +7,7 @@ function HeroSection() {
   const words = ["HEART", "AND", "SQUARE"];
 
   return (
-    <div className="w-full relative bg-[--main-color] h-[calc(100vh-180px)] max-h-[1000px] overflow-hidden">
+    <div className="w-full relative bg-[--main-color] h-[calc(100vh-180px)] max-h-[100vh] overflow-hidden">
       <div className="invisible  xl:visible absolute  xl:top-1/2 left-5 transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
         {words.map((word, index) => (
           <div
