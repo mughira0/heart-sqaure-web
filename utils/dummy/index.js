@@ -1,0 +1,216 @@
+import {
+  Apple,
+  Brain,
+  Dumbbell,
+  HeartPulse,
+  Moon,
+  ShieldAlert,
+} from "lucide-react";
+
+export const blogs = [
+  {
+    title: "Struggling to Sleep? Try These 5 Proven Hacks Tonight",
+    category: "Sleep",
+    author: "Dr. Sarah Mitchell",
+    authorImage: "/images/authors/sarah.jpg",
+    image: "/images/blogs/sleep1.jpg",
+  },
+  {
+    title: "The Truth About Carbs: Are They Really That Bad?",
+    category: "Nutrition",
+    author: "Michael Carter, RD",
+    authorImage: "/images/authors/michael.jpg",
+    image: "/images/blogs/nutrition1.jpg",
+  },
+  {
+    title: "Why Your Morning Routine Might Be Ruining Your Mental Health",
+    category: "Mental Health",
+    author: "Sophia Lee",
+    authorImage: "/images/authors/sophia.jpg",
+    image: "/images/blogs/mentalhealth1.jpg",
+  },
+  {
+    title: "From Zero to Fit: How I Transformed My Body in 6 Months",
+    category: "Fitness",
+    author: "James Reynolds",
+    authorImage: "/images/authors/james.jpg",
+    image: "/images/blogs/fitness1.jpg",
+  },
+  {
+    title: "Can’t Stay Asleep? Here’s What Might Be Causing It",
+    category: "Sleep",
+    author: "Dr. Emily Carter",
+    authorImage: "/images/authors/emily.jpg",
+    image: "/images/blogs/sleep2.jpg",
+  },
+  {
+    title: "How to Eat Healthy on a Budget: 7 Smart Grocery Hacks",
+    category: "Nutrition",
+    author: "Alex Johnson, RD",
+    authorImage: "/images/authors/alex.jpg",
+    image: "/images/blogs/nutrition2.jpg",
+  },
+  {
+    title: "Social Media Detox: How Taking a Break Can Change Your Life",
+    category: "Mental Health",
+    author: "Lisa Tran",
+    authorImage: "/images/authors/lisa.jpg",
+    image: "/images/blogs/mentalhealth2.jpg",
+  },
+  {
+    title: "The Perfect 20-Minute Workout for Busy People",
+    category: "Fitness",
+    author: "David Collins",
+    authorImage: "/images/authors/david.jpg",
+    image: "/images/blogs/fitness2.jpg",
+  },
+  {
+    title: "Is Your Bedroom Setup Ruining Your Sleep Quality?",
+    category: "Sleep",
+    author: "Dr. Kevin Brooks",
+    authorImage: "/images/authors/kevin.jpg",
+    image: "/images/blogs/sleep3.jpg",
+  },
+  {
+    title: "10 Foods That Instantly Boost Your Mood",
+    category: "Nutrition",
+    author: "Hannah Mills, RD",
+    authorImage: "/images/authors/hannah.jpg",
+    image: "/images/blogs/nutrition3.jpg",
+  },
+  {
+    title: "How to Overcome Negative Thinking (And Stay Positive)",
+    category: "Mental Health",
+    author: "Chris Nolan",
+    authorImage: "/images/authors/chris.jpg",
+    image: "/images/blogs/mentalhealth3.jpg",
+  },
+  {
+    title: "Should You Lift Weights or Do Cardio First? Here’s the Answer",
+    category: "Fitness",
+    author: "Emma Rodriguez",
+    authorImage: "/images/authors/emma.jpg",
+    image: "/images/blogs/fitness3.jpg",
+  },
+  {
+    title: "Napping: Good or Bad? Here’s What Science Says",
+    category: "Sleep",
+    author: "Dr. Robert Hayes",
+    authorImage: "/images/authors/robert.jpg",
+    image: "/images/blogs/sleep4.jpg",
+  },
+  {
+    title: "Are You Drinking Enough Water? 5 Signs of Dehydration",
+    category: "Nutrition",
+    author: "Julia Carter, RD",
+    authorImage: "/images/authors/julia.jpg",
+    image: "/images/blogs/nutrition4.jpg",
+  },
+  {
+    title: "Why You Feel Tired All the Time (And How to Fix It)",
+    category: "Mental Health",
+    author: "Mark Evans",
+    authorImage: "/images/authors/mark.jpg",
+    image: "/images/blogs/mentalhealth4.jpg",
+  },
+  {
+    title: "The Best Morning Exercises to Wake Up Your Body",
+    category: "Fitness",
+    author: "Natalie Lopez",
+    authorImage: "/images/authors/natalie.jpg",
+    image: "/images/blogs/fitness4.jpg",
+  },
+  {
+    title: "How Blue Light Affects Your Sleep (And What to Do About It)",
+    category: "Sleep",
+    author: "Dr. Alan Foster",
+    authorImage: "/images/authors/alan.jpg",
+    image: "/images/blogs/sleep5.jpg",
+  },
+  {
+    title: "The 80/20 Rule for Eating Healthy Without Feeling Restricted",
+    category: "Nutrition",
+    author: "Rachel Kim, RD",
+    authorImage: "/images/authors/rachel.jpg",
+    image: "/images/blogs/nutrition5.jpg",
+  },
+  {
+    title: "The Hidden Benefits of Spending Time Alone",
+    category: "Mental Health",
+    author: "Olivia Carter",
+    authorImage: "/images/authors/olivia.jpg",
+    image: "/images/blogs/mentalhealth5.jpg",
+  },
+  {
+    title:
+      "How to Stay Motivated to Work Out (Even When You Don’t Feel Like It)",
+    category: "Fitness",
+    author: "Daniel Scott",
+    authorImage: "/images/authors/daniel.jpg",
+    image: "/images/blogs/fitness5.jpg",
+  },
+  {
+    title: "Why Your Morning Routine Might Be Ruining Your Mental Health",
+    category: "Mental Health",
+    author: "Sophia Lee",
+    authorImage: "/images/authors/sophia.jpg",
+    image: "/images/blogs/mentalhealth1.jpg",
+  },
+  {
+    title: "From Zero to Fit: How I Transformed My Body in 6 Months",
+    category: "Fitness",
+    author: "James Reynolds",
+    authorImage: "/images/authors/james.jpg",
+    image: "/images/blogs/fitness1.jpg",
+  },
+];
+export const categories = [
+  {
+    id: 1,
+    title: "Mental Health",
+    description:
+      "Explore ways to manage stress, improve mental well-being, and cultivate a balanced mindset for a healthier life.",
+    image: "/images/blogs/mentalhealth1.jpg",
+    icon: Brain,
+  },
+  {
+    id: 2,
+    title: "Fitness & Exercise",
+    description:
+      "Stay active with expert tips on workouts, strength training, and overall physical wellness for a healthier body.",
+    image: "/images/blogs/fitness1.jpg",
+    icon: Dumbbell,
+  },
+  {
+    id: 3,
+    title: "Cancer Awareness",
+    description:
+      "Learn about cancer prevention, early detection, and supportive care strategies to stay informed and empowered.",
+    image: "/images/blogs/nutrition4.jpg",
+    icon: ShieldAlert,
+  },
+  {
+    id: 4,
+    title: "Sleep Health",
+    description:
+      "Understand the importance of quality sleep and discover tips to improve your sleep cycle for better overall health.",
+    image: "/images/blogs/sleep1.jpg",
+    icon: Moon,
+  },
+  {
+    id: 5,
+    title: "Nutrition & Diet",
+    description:
+      "Discover expert advice on healthy eating, balanced diets, and nutritional habits to fuel your body the right way.",
+    image: "/images/blogs/nutrition2.jpg",
+    icon: Apple,
+  },
+  {
+    id: 6,
+    title: "Heart Health",
+    description:
+      "Keep your heart strong with tips on cardiovascular health, cholesterol control, and daily heart-friendly habits.",
+    image: "/images/blogs/fitness4.jpg",
+    icon: HeartPulse,
+  },
+];
