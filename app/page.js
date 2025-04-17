@@ -1,17 +1,14 @@
 import AboutUs from "../components/aboutUs";
 import Banner from "../components/banner";
-import Header from "../components/core/header";
 import Newsletter from "../components/newsletter";
+import Testimonials from "../components/testimonials";
+import CompanyMarquee from "../components/ui/company-marquee";
 import AboutSection from "../views/aboutSection";
 import HeroSection from "../views/heroSection";
-import CompanyMarquee from "../components/ui/company-marquee";
-import Testimonials from "../components/testimonials";
 
 export default function Home() {
   return (
     <main className="overflow-hidden mainDiv relative">
-      <Header />
-
       <HeroSection />
       <AboutSection />
       <Banner />
