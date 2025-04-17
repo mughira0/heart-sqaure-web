@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function AboutUs({ left = false, data }) {
   return (
-    <section className="py-20 bg-bgLight">
+    <section className="py-10 bg-bgLight">
       <div className="container mx-auto px-4">
         <div
           className={`flex flex-col gap-12 items-center ${
@@ -16,7 +16,7 @@ function AboutUs({ left = false, data }) {
           <motion.div
             initial={{ opacity: 0, x: left ? 100 : -100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.2 }}
             viewport={{ once: false, amount: 0.5 }}
             className="relative w-full md:w-1/2 h-[500px] rounded-lg overflow-hidden border border-borderColor2"
           >
@@ -33,7 +33,7 @@ function AboutUs({ left = false, data }) {
           <motion.div
             initial={{ opacity: 0, x: left ? -100 : 100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.2, delay: 0.1 }}
             viewport={{ once: false, amount: 0.5 }}
             className="space-y-6 w-full md:w-1/2 z-20"
           >
