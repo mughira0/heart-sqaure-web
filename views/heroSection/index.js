@@ -8,9 +8,9 @@ function HeroSection() {
 
   return (
     <div className="w-full relative bg-[--main-color] h-[calc(100vh)] max-h-[1000px] overflow-hidden">
-      <div className="invisible  xl:visible absolute  xl:top-1/2 left-5 transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
+      <div className="invisible  lg:visible absolute  lg:top-1/2  left-[-30px] transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
         {words.map((word, index) => (
-          <div key={index} className="text-4xl  tracking-tight">
+          <div key={index} className="text-8xl   tracking-tight">
             {word}
           </div>
         ))}
@@ -28,7 +28,7 @@ function HeroSection() {
           <p className="text-[var(--heading-color)] font-semibold uppercase tracking-widest mb-3">
             EXPLORE
           </p>
-          <h2 className="text-4xl  leading-[1.1] md:text-5xl md:leading-[1.1] font-extrabold text-white/90 mb-4">
+          <h2 className="text-3xl  leading-[1.1] md:text-4xl md:leading-[1.1] font-extrabold text-white/90 mb-4">
             Transform Your Business with <br />
             <span className=" text-[var(--heading-color)]  bg-clip-text">
               Proven Growth Strategies
