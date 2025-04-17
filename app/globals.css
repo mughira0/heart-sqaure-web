@@ -117,21 +117,7 @@ body {
     transform: translate(-80vw, 60vh);
   }
 }
-.mainDiv::after {
-  content: "";
-  height: 500px;
-  width: 500px;
-  position: fixed;
-  background-image: radial-gradient(#2f7b6e, transparent);
-  filter: blur(10px);
-  border-radius: 50%;
-  z-index: -1;
-  opacity: 0.5;
-  animation: Landing2 0.5s linear;
-  animation-timeline: scroll();
-  left: -100px;
-  top: 0;
-}
+
 @keyframes Landing2 {
   0% {
     transform: translate(0);
@@ -148,21 +134,13 @@ body {
 }
 @media screen and (max-width: 1600px) {
   .mainDiv::before {
-    width: 450px;
-    height: 450px;
-  }
-  .mainDiv::after {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .mainDiv::before {
-    width: 450px;
-    height: 450px;
-  }
-  .mainDiv::after {
     width: 450px;
     height: 450px;
   }
