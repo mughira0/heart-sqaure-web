@@ -16,7 +16,7 @@ function HeroSection() {
         ))}
       </div>
       <div className="relative flex justify-center align-middle items-center gap-2 m-auto mx-w-[600px] h-full  flex">
-        <div className="absolute top-[10%] w-[200px] h-[100px]  animate-spinY">
+        <div className="absolute top-[2%] w-[100px] h-[100px]  md:top-[10%] md:w-[200px] md:h-[100px]  animate-spinY">
           <Image
             src={"/images/logo.png"}
             fill
