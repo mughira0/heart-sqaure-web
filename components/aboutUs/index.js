@@ -1,10 +1,9 @@
 "use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { motion } from "framer-motion";
 
-function AboutUs({ left = false, data, notGrayscale }) {
+function AboutUs({ left = false, data }) {
   return (
     <section className="py-20 bg-bgLight">
       <div className="container mx-auto px-4">
