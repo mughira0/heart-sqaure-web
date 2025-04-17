@@ -45,7 +45,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className=" absolute transform  bottom-[0px]   w-[350px] h-[350px]  md:right-10  md:absolute  md:w-[300px] md:h-[300px] lg:right-10 lg:absolute   lg:h-[300px] lg:w-[300px] xl:h-[500px] xl:w-[500px]  flex justify-end">
+      <div className=" invisible lg:visible transform  bottom-[0px]   w-[350px] h-[350px]  md:right-10  md:absolute  md:w-[300px] md:h-[300px] lg:right-10 lg:absolute   lg:h-[300px] lg:w-[300px] xl:h-[500px] xl:w-[500px]  flex justify-end">
         <Image
           src={"/images/hero.png"}
           fill
