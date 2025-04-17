@@ -12,7 +12,7 @@ function HeroSection() {
         {words.map((word, index) => (
           <div
             key={index}
-            className="text-4xl sm:text-6xl leading-[0.8] md:text-7xl lg:text-8xl xl:text-[10rem] tracking-tight"
+            className="text-4xl sm:text-6xl leading-[0.8] md:text-5xl lg:text-6xl xl:text-[8rem] tracking-tight"
           >
             {word}
           </div>

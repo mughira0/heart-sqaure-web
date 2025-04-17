@@ -146,6 +146,17 @@ body {
     transform: translate(80vw, 60vh);
   }
 }
+@media screen and (max-width: 1600px) {
+  .mainDiv::before {
+    width: 450px;
+    height: 4500px;
+  }
+  .mainDiv::after {
+    width: 450px;
+    height: 450px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .mainDiv::before {
     width: 300px;
