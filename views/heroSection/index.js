@@ -8,7 +8,7 @@ function HeroSection() {
 
   return (
     <div className="w-full relative bg-[--main-color] h-[calc(100vh)] max-h-[1000px] overflow-hidden">
-      <div className="invisible  lg:visible absolute  lg:top-1/2  left-[-30px] transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
+      <div className="invisible  lg:visible absolute  lg:top-1/2  left-[0px] transform -translate-y-1/2 text-white/50 font-bold text-left space-y-1">
         {words.map((word, index) => (
           <div key={index} className="text-8xl   tracking-tight">
             {word}
